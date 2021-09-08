@@ -5,6 +5,134 @@ html {
   height: 100%;
 }
 body {
+  margin: 2px;
+}
+ul {
   margin: 0;
+  list-style: none;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: white;
+  opacity: 80%;
+  font-size: 16px;
+  color: #24292e;
+  line-height: 1.5;
+  align-content: center;
+  padding-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 0.5px solid rgb(109, 107, 107);
+  position: sticky;
+  top: 0;
+}
+header ul.left {
+  display: flex;
+  align-content: center;
+  padding-top: 0.5rem;
+  justify-content: flex-start;
+  margin-right: 24px;
+}
+header ul.right {
+  margin-left: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+header ul li a {
+  color: rgb(63, 63, 63);
+  text-decoration-line: none;
+  margin-bottom: 1rem;
+  align-content: center;
+  margin-right: 24px;
+}
+header ul li a.A {
+  align-content: center;
+}
+header ul li a.B {
+  font-weight: bold;
+}
+header ul.right {
+  padding-right: 0.5rem;
+  margin-left: auto;
+  display: flex;
+}
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
   min-height: 100%;
+  width: auto;
+  max-width: 1600px;
+}
+main ul li {
+  display: flex;
+  align-content: space-around;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  flex-direction: column;
+  width: auto;
+}
+main ul li.octodex-cat {
+  flex-wrap: wrap;
+}
+main ul li .cat img {
+  background-color: rgb(255, 255, 255);
+  border: rgb(203, 202, 202);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2%;
+  display: flex;
+  height: 320px;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+main ul li p.number {
+  align-content: center;
+}
+main ul li a.name {
+  font-weight: bold;
+  color: #181a1d;
+  font-size: 16px;
+  text-decoration-line: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  /* margin-left: 0px;
+  margin-right: 0px; */
+}
+main ul li a.artist img.image {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: smokey whitesmoke;
+}
+main ul li div.image-footer {
+  display: flex;
+}
+main ul li div.image-footer div.number-name {
+  display: flex;
+  justify-content: flex-start;
+}
+main ul li div.image-footer div.artist-image {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  padding-top: 0.75rem;
+}
+footer {
+  border-top: 0.5px solid rgb(189, 186, 186);
+  padding-top: 1rem;
+  padding-left: 1rem;
+  color: #24292e;
 }
