@@ -12,7 +12,7 @@ ul {
   list-style: none;
   padding: 0;
 }
-header {
+.header {
   display: flex;
   background-color: white;
   opacity: 80%;
@@ -27,34 +27,34 @@ header {
   position: sticky;
   top: 0;
 }
-header ul.left {
+.header ul.left {
   display: flex;
   align-content: center;
   padding-top: 0.5rem;
   justify-content: flex-start;
   margin-right: 24px;
 }
-header ul.right {
+.header ul.right {
   margin-left: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
   justify-content: flex-end;
   padding-top: 1rem;
 }
-header ul li a {
+.header ul li a {
   color: rgb(63, 63, 63);
   text-decoration-line: none;
   margin-bottom: 1rem;
   align-content: center;
   margin-right: 24px;
 }
-header ul li a.A {
+.header ul li a.A {
   align-content: center;
 }
-header ul li a.B {
+.header ul li a.B {
   font-weight: bold;
 }
-header ul.right {
+.header ul.right {
   padding-right: 0.5rem;
   margin-left: auto;
   display: flex;
