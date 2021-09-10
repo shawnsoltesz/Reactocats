@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Octocat } from './components/Octocat'
 import { Cat } from './components/Cat'
 export function App() {
   return (
@@ -53,9 +52,6 @@ export function App() {
       </section>
 
       <ul className="cats">
-        <Cat />
-        <Cat />
-        <Cat />
         <Cat />
 
         <li className="octodex-cat">
