@@ -122,90 +122,35 @@ export function App() {
           artistName="James Kang"
         />
 
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//murakamicat/">
-            <img
-              src="https://octodex.github.com//images/murakamicat.png"
-              alt="Murakamicat"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//murakamicat/"
+          source="https://octodex.github.com//images/murakamicat.png"
+          name="Murakamicat"
+          number={81}
+          artistProfile="https://github.com/billyroh"
+          artistImage="https://github.com/billyroh.png"
+          artistName="Billy Roh"
+        />
+        <Cat
+          image="https://octodex.github.com//octofez/"
+          source="https://octodex.github.com//images/octofez.png"
+          name="Octofez"
+          number={77}
+          artistProfile="https://github.com/nickh"
+          artistImage="https://github.com/nickh.png"
+          artistName="Nick Hengeveld"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#81: &nbsp;</p>
+        <Cat
+          image="https://octodex.github.com//codercat/"
+          source="https://octodex.github.com//images/codercat.jpg"
+          name="Codercat"
+          number={70}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
 
-              <a
-                className="name"
-                href="https://octodex.github.com//murakamicat/"
-              >
-                Murakamicat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/billyroh">
-                <img
-                  className="image"
-                  src="https://github.com/billyroh.png"
-                  alt="Billy Roh"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//octofez/">
-            <img
-              src="https://octodex.github.com//images/octofez.png"
-              alt="Octofez"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#77: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//octofez/">
-                Octofez
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/nickh">
-                <img
-                  className="image"
-                  src="https://github.com/nickh.png"
-                  alt="Nick Hengeveld"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//codercat/">
-            <img
-              src="https://octodex.github.com//images/codercat.jpg"
-              alt="Codercat"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#70: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//codercat/">
-                Codercat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
         <li className="octodex-cat">
           <a
             className="cat"
