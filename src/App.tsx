@@ -92,99 +92,36 @@ export function App() {
           artistName="Tony Jaramillo"
         />
 
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//octoliberty/">
-            <img
-              src="https://octodex.github.com//images/octoliberty.png"
-              alt="OctoLiberty"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//octoliberty/"
+          source="https://octodex.github.com//images/octoliberty.png"
+          name="OctoLiberty"
+          number={102}
+          artistProfile="https://github.com/tonyjaramillo"
+          artistImage="https://github.com/tonyjaramillo.png"
+          artistName="Tony Jaramillo"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#102: &nbsp;</p>
+        <Cat
+          image="https://octodex.github.com//daftpunktocat-guy/"
+          source="https://octodex.github.com//images/daftpunktocat-guy.gif"
+          name="Daftpunktocat-Guy"
+          number={99}
+          artistProfile="https://github.com/jeejkang"
+          artistImage="https://github.com/jeejkang.png"
+          artistName="James Kang"
+        />
 
-              <a
-                className="name"
-                href="https://octodex.github.com//octoliberty/"
-              >
-                OctoLiberty
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/tonyjaramillo">
-                <img
-                  className="image"
-                  src="https://github.com/tonyjaramillo.png"
-                  alt="Tony Jaramillo"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a
-            className="cat"
-            href="https://octodex.github.com//daftpunktocat-guy/"
-          >
-            <img
-              src="https://octodex.github.com//images/daftpunktocat-guy.gif"
-              alt="Daftpunktocat-Guy"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//Mardigrastocat/"
+          source="https://octodex.github.com//images/Mardigrastocat.png"
+          name="Mardigrastocat"
+          number={96}
+          artistProfile="https://github.com/jeejkang"
+          artistImage="https://github.com/jeejkang.png"
+          artistName="James Kang"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#99: &nbsp;</p>
-
-              <a
-                className="name"
-                href="https://octodex.github.com//daftpunktocat-guy/"
-              >
-                Daftpunktocat-Guy
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/jeejkang">
-                <img
-                  className="image"
-                  src="https://github.com/jeejkang.png"
-                  alt="James Kang"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//Mardigrastocat/">
-            <img
-              src="https://octodex.github.com//images/Mardigrastocat.png"
-              alt="Mardigrastocat"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#96: &nbsp;</p>
-
-              <a
-                className="name"
-                href="https://octodex.github.com//Mardigrastocat/"
-              >
-                Mardigrastocat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/jeejkang">
-                <img
-                  className="image"
-                  src="https://github.com/jeejkang.png"
-                  alt="James Kang"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
         <li className="octodex-cat">
           <a className="cat" href="https://octodex.github.com//murakamicat/">
             <img
