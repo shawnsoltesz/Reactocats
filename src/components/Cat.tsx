@@ -8,7 +8,7 @@ export function Cat(props) {
       </a>
       <div className="image-footer">
         <div className="number-name">
-          <p className="number">#{props.number} &nbsp;:</p>
+          <p className="number">#{props.number}: &nbsp;</p>
           <a className="name" href={props.image}>
             {props.name}
           </a>

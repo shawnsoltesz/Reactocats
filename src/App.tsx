@@ -206,7 +206,7 @@ export function App() {
           name="Original"
           number={1}
           artistProfile="http://www.idokungfoo.com"
-          artistImage="images/idokungfoo-avatar.jpeg"
+          artistImage="https://static.wixstatic.com/media/e6031a_afa89239d42c4d3eabee0755d4e56625~mv2.png/v1/fill/w_554,h_560,al_c,lg_1,q_85/e6031a_afa89239d42c4d3eabee0755d4e56625~mv2.webp"
           artistName="Simon"
         />
       </ul>
