@@ -52,119 +52,46 @@ export function App() {
       </section>
 
       <ul className="cats">
-        <Cat />
+        <Cat
+          image="https://octodex.github.com//nuxtocat/"
+          source="https://octodex.github.com/images/NUX_Octodex.gif"
+          name="NUXtocat"
+          number={153}
+          artistProfile="https://github.com/cameronfoxly"
+          artistImage="https://avatars.githubusercontent.com/u/19292210?v=4"
+          artistName="Cameron Foxly"
+        />
 
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//nuxtocat/">
-            <img
-              src="https://octodex.github.com/images/NUX_Octodex.gif"
-              alt="NUXtocat"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//umbrellatocat/"
+          source="https://octodex.github.com//images/puddle_jumper_octodex.jpg"
+          name="Umbrellatocat"
+          number={140}
+          artistProfile="https://github.com/rubyjazzy"
+          artistImage="https://github.com/rubyjazzy.png"
+          artistName="Ruby Jazz"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#153: &nbsp;</p>
-              <a className="name" href="https://octodex.github.com//nuxtocat/">
-                NUXtocat
-              </a>
-            </div>
+        <Cat
+          image="https://octodex.github.com//hulatocat/"
+          source="https://octodex.github.com//images/hula_loop_octodex03.gif"
+          name="Hulatocat"
+          number={137}
+          artistProfile="https://github.com/heyhayhay"
+          artistImage="https://avatars.githubusercontent.com/u/20049049?v=4"
+          artistName="Haley Carroll"
+        />
 
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronfoxly">
-                <img
-                  className="image"
-                  src="https://avatars.githubusercontent.com/u/19292210?v=4"
-                  alt="Cameron Foxly"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//umbrellatocat/">
-            <img
-              src="https://octodex.github.com//images/puddle_jumper_octodex.jpg"
-              alt="Umbrellatocat"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//catstello/"
+          source="https://octodex.github.com//images/catstello.png"
+          name="Catstello"
+          number={126}
+          artistProfile="https://github.com/tonyjaramillo"
+          artistImage="https://github.com/tonyjaramillo.png"
+          artistName="Tony Jaramillo"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#140: &nbsp;</p>
-
-              <a
-                className="name"
-                href="https://octodex.github.com//umbrellatocat/"
-              >
-                Umbrellatocat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/rubyjazzy">
-                <img
-                  className="image"
-                  src="https://github.com/rubyjazzy.png"
-                  alt="Ruby Jazz"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//hulatocat/">
-            <img
-              src="https://octodex.github.com//images/hula_loop_octodex03.gif"
-              alt="Hulatocat"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#137: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//hulatocat/">
-                Hulatocat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/heyhayhay">
-                <img
-                  className="image"
-                  src="https://github.com/heyhayhay.png"
-                  alt="[Haley Carroll]"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//catstello/">
-            <img
-              src="https://octodex.github.com//images/catstello.png"
-              alt="Catstello"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#126: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//catstello/">
-                Catstello
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/tonyjaramillo">
-                <img
-                  className="image"
-                  src="https://github.com/tonyjaramillo.png"
-                  alt="Tony Jaramillo"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
         <li className="octodex-cat">
           <a className="cat" href="https://octodex.github.com//octoliberty/">
             <img
