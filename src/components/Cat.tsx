@@ -18,7 +18,7 @@ export function Cat(props) {
             <img
               className="image"
               src={props.artistImage}
-              alt={props.artistImageAlt}
+              alt={props.artistName}
             />
           </a>
         </div>
