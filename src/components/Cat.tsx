@@ -1,29 +1,26 @@
 import React from 'react'
 
-export function Cat() {
+export function Cat(props) {
   return (
     <section className="octocat">
       <ul className="cats">
         <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//nuxtocat/">
-            <img
-              src="https://octodex.github.com/images/NUX_Octodex.gif"
-              alt="NUXtocat"
-            />
+          <a className="cat" href={props.image}>
+            <img src={props.source} alt={props.name} />
           </a>
           <div className="image-footer">
             <div className="number-name">
               <p className="number">#153: &nbsp;</p>
-              <a className="name" href="https://octodex.github.com//nuxtocat/">
-                NUXtocat
+              <a className="name" href={props.image}>
+                {props.name}
               </a>
             </div>
             <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronfoxly">
+              <a className="artist" href={props.artistProfile}>
                 <img
                   className="image"
-                  src="https://avatars.githubusercontent.com/u/19292210?v=4"
-                  alt="Cameron Foxly"
+                  src={props.artistImage}
+                  alt={props.artistImageAlt}
                 />
               </a>
             </div>
