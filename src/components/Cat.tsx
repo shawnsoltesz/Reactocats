@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Cat() {
+export function Cat(props) {
   return (
     <section className="octocat">
       <ul className="cats">
