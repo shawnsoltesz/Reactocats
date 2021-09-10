@@ -151,179 +151,65 @@ export function App() {
           artistName="Cameron McEfee"
         />
 
-        <li className="octodex-cat">
-          <a
-            className="cat"
-            href="https://octodex.github.com//octocat-de-los-muertos/"
-          >
-            <img
-              src="https://octodex.github.com//images/octocat-de-los-muertos.jpg"
-              alt="Octocat De Los Muertos"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//octocat-de-los-muertos/"
+          source="https://octodex.github.com//images/octocat-de-los-muertos.jpg"
+          name="Octocat De Los Muertos"
+          number={55}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#55: &nbsp;</p>
+        <Cat
+          image="https://octodex.github.com//total-eclipse-of-the-octocat/"
+          source="https://octodex.github.com//images/total-eclipse-of-the-octocat.jpg"
+          name="Total Eclipse of the Octocat"
+          number={29}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
 
-              <a
-                className="name"
-                href="https://octodex.github.com//octocat-de-los-muertos/"
-              >
-                Octocat De Los Muertos
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a
-            className="cat"
-            href="https://octodex.github.com//total-eclipse-of-the-octocat/"
-          >
-            <img
-              src="https://octodex.github.com//images/total-eclipse-of-the-octocat.jpg"
-              alt="Total Eclipse of the Octocat"
-            />
-          </a>
+        <Cat
+          image="https://octodex.github.com//octonaut/"
+          source="https://octodex.github.com//images/octonaut.jpg"
+          name="Octonaut"
+          number={15}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
 
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#29: &nbsp;</p>
+        <Cat
+          image="https://octodex.github.com//repo/"
+          source="https://octodex.github.com//images/repo.png"
+          name="Repo"
+          number={8}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
 
-              <a
-                className="name"
-                href="https://octodex.github.com//total-eclipse-of-the-octocat/"
-              >
-                Total Eclipse of the Octocat
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//octonaut/">
-            <img
-              src="https://octodex.github.com//images/octonaut.jpg"
-              alt="Octonaut"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#15: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//octonaut/">
-                Octonaut
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//repo/">
-            <img src="https://octodex.github.com//images/repo.png" alt="Repo" />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#8: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//repo/">
-                Repo
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//benevocats">
-            <img
-              src="https://octodex.github.com//images/benevocats.png"
-              alt="Benevocats"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#6: &nbsp;</p>
-
-              <a className="name" href="[link to solo cat image on Github]">
-                Benevocats
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="https://github.com/cameronmcefee">
-                <img
-                  className="image"
-                  src="https://github.com/cameronmcefee.png"
-                  alt="Cameron McEfee"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="octodex-cat">
-          <a className="cat" href="https://octodex.github.com//original/">
-            <img
-              src="https://octodex.github.com//images/original.png"
-              alt="Original"
-            />
-          </a>
-
-          <div className="image-footer">
-            <div className="number-name">
-              <p className="number">#1: &nbsp;</p>
-
-              <a className="name" href="https://octodex.github.com//original/">
-                Original
-              </a>
-            </div>
-            <div className="artist-image">
-              <a className="artist" href="http://www.idokungfoo.com">
-                <img
-                  className="image"
-                  src="images/idokungfoo-avatar.jpeg"
-                  alt="Simon"
-                />
-              </a>
-            </div>
-          </div>
-        </li>
+        <Cat
+          image="https://octodex.github.com//benevocats"
+          source="https://octodex.github.com//images/benevocats.png"
+          name="Benevocats"
+          number={6}
+          artistProfile="https://github.com/cameronmcefee"
+          artistImage="https://github.com/cameronmcefee.png"
+          artistName="Cameron McEfee"
+        />
+        <Cat
+          image="https://octodex.github.com//original/"
+          source="https://octodex.github.com//images/original.png"
+          name="Original"
+          number={1}
+          artistProfile="http://www.idokungfoo.com"
+          artistImage="images/idokungfoo-avatar.jpeg"
+          artistName="Simon"
+        />
       </ul>
-
       <footer>
         <ul>
           <li>© 2013 – 2021 GitHub, Inc. All rights reserved.</li>
