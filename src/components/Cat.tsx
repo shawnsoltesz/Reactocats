@@ -1,6 +1,14 @@
 import React from 'react'
 
-export function Cat(props) {
+export function Cat(props: {
+  image: string
+  source: string
+  name: string
+  number: number
+  artistProfile: string
+  artistImage: string
+  artistName: string
+}) {
   return (
     <li className="octodex-cat">
       <a className="cat" href={props.image}>
