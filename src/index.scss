@@ -29,16 +29,13 @@ ul {
 .header ul.left {
   background-color: white;
   display: flex;
-  align-content: center;
-  padding-top: 0.5rem;
+  align-items: center;
   justify-content: flex-start;
   margin-right: 24px;
 }
 .header ul.right {
   background-color: white;
   margin-left: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   justify-content: flex-end;
   padding-top: 1rem;
 }
