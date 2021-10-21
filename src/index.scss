@@ -18,7 +18,7 @@ ul {
   opacity: 80%;
   font-size: 16px;
   color: #24292e;
-  line-height: 0.5;
+  line-height: 1.5;
   align-content: center;
   margin-right: auto;
   margin-left: auto;
@@ -36,13 +36,16 @@ ul {
 .header ul.right {
   background-color: white;
   margin-left: auto;
-  justify-content: flex-end;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  margin-left: auto;
+  // display: flex;
 }
 .header ul li a {
   color: rgb(63, 63, 63);
   text-decoration-line: none;
-  margin-bottom: 1rem;
   align-content: center;
   margin-right: 24px;
 }
@@ -52,13 +55,10 @@ ul {
 .header ul li a.B {
   font-weight: bold;
 }
-.header ul.right {
-  padding-right: 0.5rem;
-  margin-left: auto;
-  display: flex;
-}
+
 main ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: whitesmoke;
   min-height: 100%;
@@ -70,9 +70,8 @@ main ul li {
   align-content: space-around;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  padding-top: 2.5rem;
   padding-bottom: 0.5rem;
-  margin-top: 0.1rem;
+  margin-top: 1rem;
   margin-bottom: 0.1rem;
   margin-left: 0.1rem;
   margin-right: 0.1rem;
@@ -106,8 +105,6 @@ main ul li a.name {
   text-decoration-line: none;
   margin-top: 1em;
   margin-bottom: 1em;
-  /* margin-left: 0px;
-  margin-right: 0px; */
 }
 main ul li a.artist img.image {
   display: flex;
@@ -130,7 +127,5 @@ main ul li div.image-footer div.artist-image {
 }
 footer {
   border-top: 0.5px solid rgb(189, 186, 186);
-  padding-top: 1rem;
-  padding-left: 1rem;
   color: #24292e;
 }
