@@ -214,8 +214,6 @@ export function App() {
         <ul>
           <li>© 2013 – 2021 GitHub, Inc. All rights reserved.</li>
         </ul>
-        <br />
-        <br />
       </footer>
     </main>
   )
